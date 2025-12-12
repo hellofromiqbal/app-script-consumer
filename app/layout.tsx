@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Script src="https://app-with-script.vercel.app/testing.js" strategy="beforeInteractive"/>
+        <Script src="https://app-with-script.vercel.app/testing.obf.js" strategy="beforeInteractive"/>
         {children}
       </body>
     </html>
